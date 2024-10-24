@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins" sans-serif;
+    font-family: "Instrument Sans", sans-serif;
 
 }
 body{
@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin-bottom: 500px;
+   
 
 }
 
@@ -23,7 +23,6 @@ body{
 .wrapper{
     width: 476px;
     height: 573px;
-    background: ;
     border-color: 633CFF;
     padding: 51px;
     border-width: 2px;
@@ -109,19 +108,27 @@ input{
     height: 50px;
     border-style: solid;
     border-width: 2px;
-    border-color: gray;
+    border-color: #D9D9D9;
     text-align: left;
     
 }
 i{
-    color: gray;
-    margin-right: 330px;
-    top: 50%;
+
 }
-.input-box i {
+
+.img{
+    color: gray;
+    margin-right: 33px;
+    top: 30%;
     justify-content: left;
     position: relative;
     top: 35px;
+    left: 10PX;
+    height: 16px;
+    width: 16px;
+}
+.input-box i {
+
 }
 ::placeholder{
     margin-left: 30px;
@@ -137,6 +144,8 @@ i{
     
     
 }
+
+
 h1{
     text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }

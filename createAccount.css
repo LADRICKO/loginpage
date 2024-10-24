@@ -6,33 +6,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins" sans-serif;
+    font-family: "Instrument Sans", sans-serif;
 
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    margin-bottom: 500px;
+    min-height: 100vh;
+   
 
 }
 
+
+
 .wrapper{
     width: 476px;
-    height: 709px;
+    height: 573px;
     border-color: 633CFF;
-    padding: 20px;
+    padding: 51px;
     border-width: 2px;
     margin: 2px;
     /* border-style: solid; */
     
-}
+
 
 .wrapper .input-box {
     width: 396px;
-    height: 50px;
-   
+    height: 70px;
+    background-color: aqua;
+    margin: ;
     display: flex;
     flex-direction: column;
 }
@@ -48,12 +51,12 @@ body{
 
 form{
     width: 476px;
-    height: 800px;
+    height: 618px;
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     text-align: center;
     margin-top: 50px;
-    border-radius: 12px;
+    border-radius: 10px;
 
 }
 
@@ -65,7 +68,7 @@ form h2 {
 form p{
     font-size: 15px;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 img{
     height: 40px;
@@ -76,14 +79,14 @@ button{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 30px;
+    padding: auto;
     background-color: #633CFF;
-    margin-top: 20px;
-    height: 20px;
+    margin-top: 40px;
+    height: 40px;
     margin-bottom: 10px;
     border-radius: 10px;
     color: white;
-    text-align: center;
+    text-align: right;
     border-color: white;
     
 
@@ -92,7 +95,7 @@ button{
 .input-box {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 form label{
@@ -102,34 +105,44 @@ form label{
 }
 input{
     border-radius: 8px;
-    height: 40px;
+    height: 50px;
     border-style: solid;
     border-width: 2px;
-    border-color: gray;
+    border-color: #D9D9D9;
     text-align: left;
     
 }
 i{
-    color: gray;
-    margin-right: 330px;
-    top: 50%;
+
 }
-.input-box i {
+
+.img{
+    color: gray;
+    margin-right: 33px;
+    top: 30%;
     justify-content: left;
     position: relative;
-    top: 25px;
+    top: 35px;
+    left: 10PX;
+    height: 16px;
+    width: 16px;
+}
+.input-box i {
+
 }
 ::placeholder{
     margin-left: 30px;
     padding-left: 100px;
-    padding: 40px;
+    padding: 50px;
 }
 .btn {
 
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     justify-content: center;
-    padding-left: 10px;
+    padding-left: 25%;
+    
+
     
     
 }
